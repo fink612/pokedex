@@ -157,7 +157,7 @@ body {
 
 #pokemon-description {
     width: 230px;
-    height: 100px;
+    height: 150px;
     background-color: white;
     border: 1px solid black;
     border-radius: 10px;
@@ -166,5 +166,12 @@ body {
     padding: 2px;
     font-size: 18px;
     overflow-y: auto;
+    text-wrap: calc();
 
 }
+/*this rule takes out the <br> but need to exchange for a single space 
+
+#pokemon-description br {
+    display: none;
+}
+    */
