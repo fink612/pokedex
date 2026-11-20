@@ -6,13 +6,13 @@ body {
 
 #content-box {
     width: 500px;
-    height: 500px;
+    height: 600px;
     border: 10px solid lightgray;
     border-radius: 10px;
     /*background-color: rgb(25, 66, 14);*/
     display: flex;
     margin: 0 auto;
-    margin-top: 90px;
+    margin-top: 80px;
     background: url("./pokeball.jpg") no-repeat;
     background-size: cover;
 }
@@ -26,7 +26,7 @@ body {
 
 #pokemon-list {
     width: 250px;
-    height: 500px;
+    height: 600px;
     /*background-color: yellow;*/
     font-size: 18px;
     overflow-y: auto;
@@ -43,11 +43,11 @@ body {
 }
 
 #pokemon-info img {
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     border: 1px solid black;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 60px;
     background-color: white;
 
 }
@@ -157,21 +157,23 @@ body {
 
 #pokemon-description {
     width: 230px;
-    height: 150px;
+    height: 135px;
     background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
+    
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 165px;
     padding: 2px;
     font-size: 18px;
     overflow-y: auto;
     text-wrap: calc();
-
+    
 }
 /*this rule takes out the <br> but need to exchange for a single space 
 
 #pokemon-description br {
-    display: none;
+    
+    content: ' ';
+
 }
+    
     */

@@ -18,6 +18,7 @@ window.onload = async function() {
 
 }
 
+
 async function getPokemon(num) {
     let url = "https://pokeapi.co/api/v2/pokemon/" + num.toString();
 
@@ -58,4 +59,7 @@ function updatePokemon() {
 
     //update description
     document.getElementById("pokemon-description").innerText = pokedex[this.id]["desc"];
+   /* document.getElementById("pokemon-description br").forEach(br => {
+    br.replaceWith(" ");
+    }); */
 }
